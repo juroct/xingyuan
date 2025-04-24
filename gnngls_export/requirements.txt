@@ -1,0 +1,12 @@
+torch>=2.2.0
+dgl>=1.2.0
+networkx>=3.2.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+tqdm>=4.65.0
+scikit-learn>=1.2.0
+tensorboard>=2.12.0
+# pickle5 is only needed for Python < 3.8
+# typeguard is optional for runtime type checking
+tsplib95>=0.7.0  # Optional, for external solvers
